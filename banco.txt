@@ -1,0 +1,16 @@
+create database Gerenciamento_de_vendas;
+use Gerenciamento_de_vendas;
+
+create table automoveis(
+id int not null auto_increment primary key,
+marca varchar (255) not null,
+modelo varchar (255) not null,
+ano_fabricacao varchar (20) not null,
+preco decimal not null
+);
+
+drop table automoveis;
+
+
+SELECT * FROM automoveis;
+insert into automoveis(marca, modelo, ano_fabricacao, preco) VALUES ('GOL', 'Sedans', 2023 , 30000);

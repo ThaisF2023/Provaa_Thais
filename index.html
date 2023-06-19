@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMax</title>
+</head>
+<body>
+    <h1>Gerenciamento de vendas de automóveis</h1>
+
+    <form id="automoveisForms">
+        <input type="text" id="marcaInput" placeholder="marca" required>
+        <input type="text" id="modeloInput" placeholder="modelo" required>
+        <input type="text" id="ano_fabricacaoInput" placeholder="ano de fabricação" required>
+        <input type="number" id="precoInput" placeholder="preco" required>
+        <button type="submit">Adicionar</button>
+
+    </form>
+
+    <table id="automoveisTabela">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Ano de fabricação</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+
+    </table>
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
